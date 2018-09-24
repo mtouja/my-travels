@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Travels from "./Travels";
+import Travel from "./Travel";
 
 
 class App extends Component {
@@ -16,17 +16,17 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Travels
+        <Travel
         destination="Moscou"
         country = "Russie"
         photo = "https://image.ibb.co/f1agnU/moscow_183661_1280.jpg"
         distance = "2836" />
-        <Travels
+        <Travel
         destination="Perth"
         country = "Australie"
         photo = "https://image.ibb.co/fex0gp/perth_1368337_1280.jpg"
         distance = "14269" />
-        <Travels
+        <Travel
         destination="Meteora"
         country = "Grèce"
         photo = "https://image.ibb.co/gtOFgp/nature_3279419_1280.jpg"
